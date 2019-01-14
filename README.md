@@ -26,3 +26,5 @@ install.bat -r [recipe_name] start
 ```sh
 ant updatesystem
 ```
+#### rename + move one file to other file with following data 
+move %HYBRIS_HOME_DIR%\hybris\bin\custom\concerttours\resources\impex\essentialdata-bands.impex %HYBRIS_HOME_DIR%\hybris\bin\custom\concerttours\resources\impex\concerttours-bands.impex & move %HYBRIS_HOME_DIR%\hybris\bin\custom\concerttours\resources\impex\projectdata-yBandTour.impex %HYBRIS_HOME_DIR%\hybris\bin\custom\concerttours\resources\impex\concerttours-yBandTour.impex

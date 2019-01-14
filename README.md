@@ -6,22 +6,23 @@
 cd %HYBRIS_HOME_DIR%\hybris & start /B java -cp .\bin\platform\lib\dbdriver\* org.hsqldb.util.DatabaseManager --url jdbc:hsqldb:file:.\data\hsqldb\mydb
 ```
 #### Command to kill the DB
+```sh
 taskkill /FI "WINDOWTITLE eq HSQL*" 
-
+```
 #### Command to run/stop Hybris server
-
+```sh
 hybrisserver.bat start/stop
 (or)
 ctrl + C to stop server
-
+```
 #### Command to create recipe
-
+```sh
 inside installer,
 install.bat -r [recipe_name] setup
 install.bat -r [recipe_name] initialize
 install.bat -r [recipe_name] start
-
+```
 #### Command to update the DB
-
+```sh
 ant updatesystem
-
+```

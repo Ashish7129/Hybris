@@ -2,7 +2,9 @@
 ## Tutorial 1 
 ### Set up things 
 #### Command to open HSQL DB
+```sh
 cd %HYBRIS_HOME_DIR%\hybris & start /B java -cp .\bin\platform\lib\dbdriver\* org.hsqldb.util.DatabaseManager --url jdbc:hsqldb:file:.\data\hsqldb\mydb
+```
 #### Command to kill the DB
 taskkill /FI "WINDOWTITLE eq HSQL*" 
 

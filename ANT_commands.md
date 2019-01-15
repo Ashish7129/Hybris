@@ -13,3 +13,7 @@
 - Drops all the existing schema and tables
 - Recreates the schema and tables
 - Reload the data(seed data given by hybris, we can also load our own data)
+
+## ant updatesystem
+- it will just modify the changes requested,it will not clear any existing data or tables.
+- If we are requesting to create the new tables or columns,update will do that without modifying any other details in DB.

@@ -30,7 +30,7 @@ ant modulegen -Dinput.module=accelerator -Dinput.name=training -Dinput.package=c
 ```sh
 ant extgen
 ```
-Specify the extension template,name of the extension and package name while running this command.
+Specify the extension template,name of the extension and package name while running this command. <br />
 **Extension template** : any of the existing extension templates (eg yempty, yaddon etc)
 
 ##### Description

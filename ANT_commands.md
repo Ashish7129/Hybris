@@ -3,3 +3,7 @@
 - If this folder structure is not available then it creates the folder structure.
 - If this folder structure is already available then do nothing.
 - If there is no build, It will create a build from scratch, if there is any build exist, It will delete and recreate it.
+
+## ant all
+- It assumes folder structure is already exist.
+- If there is no build, it will create a build from scratch, if there is any build exist, it will modify it rather than recreating it.

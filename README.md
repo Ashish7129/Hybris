@@ -22,6 +22,10 @@ install.bat -r [recipe_name] setup
 install.bat -r [recipe_name] initialize
 install.bat -r [recipe_name] start
 ```
+#### command to create MODULE
+```sh
+ant modulegen -Dinput.module=accelerator -Dinput.name=training -Dinput.package=com.hybris.training -Dinput.template=develop
+```
 #### Command to update the DB
 ```sh
 ant updatesystem

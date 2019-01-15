@@ -26,6 +26,13 @@ install.bat -r [recipe_name] start
 ```sh
 ant modulegen -Dinput.module=accelerator -Dinput.name=training -Dinput.package=com.hybris.training -Dinput.template=develop
 ```
+#### command to create EXTENSION
+```sh
+ant extgen
+```
+Specify the extension template,name of the extension and package name while running this command.
+**Extension template** : any of the existing extension templates (eg yempty, yaddon etc)
+
 ##### Description
  - **Module** : we have specified module as accelerator which means we are developing B2C module.
  - **name** : we can specify any name to the module, we have given training for the same.

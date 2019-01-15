@@ -7,3 +7,9 @@
 ## ant all
 - It assumes folder structure is already exist.
 - If there is no build, it will create a build from scratch, if there is any build exist, it will modify it rather than recreating it.
+
+## ant initialize
+- Removes all the existing data
+- Drops all the existing schema and tables
+- Recreates the schema and tables
+- Reload the data(seed data given by hybris, we can also load our own data)

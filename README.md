@@ -33,6 +33,12 @@ ant extgen
 Specify the extension template,name of the extension and package name while running this command. <br />
 **Extension template** : any of the existing extension templates (eg yempty, yaddon etc)
 
+#### how to make custom extenstion as extension template
+```sh
+meta key="extgen-template-extension" value="true"
+```sh
+define it in its **extensioninfo.xml**
+
 ##### Description
  - **Module** : we have specified module as accelerator which means we are developing B2C module.
  - **name** : we can specify any name to the module, we have given training for the same.

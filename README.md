@@ -36,7 +36,7 @@ Specify the extension template,name of the extension and package name while runn
 #### how to make custom extenstion as extension template
 ```sh
 meta key="extgen-template-extension" value="true"
-```sh
+```
 define it in its **extensioninfo.xml**
 
 ##### Description

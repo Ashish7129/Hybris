@@ -26,6 +26,12 @@ install.bat -r [recipe_name] start
 ```sh
 ant modulegen -Dinput.module=accelerator -Dinput.name=training -Dinput.package=com.hybris.training -Dinput.template=develop
 ```
+##### Description
+ - **Module** : we have specified module as accelerator which means we are developing B2C module.
+ - **name** : we can specify any name to the module, we have given training for the same.
+ - **package** : We can also specify the java class package prefix, we have given as com.hybris.training.
+ - **template** : Template specifies whether configuration is for development or production.
+
 #### Command to update the DB
 ```sh
 ant updatesystem

@@ -3,3 +3,6 @@ http://blog.icodejava.com/tag/cron-expression-to-fire-the-trigger-every-10-minut
  
 #### cms template structure
 https://hybrismart.com/2016/09/02/hybris-cms-template-structure-reference/
+
+#### WCMS 
+https://www.stackextend.com/hybris/everything-about-wcms-in-hybris/

@@ -12,7 +12,7 @@ taskkill /FI "WINDOWTITLE eq HSQL*"
 
 #### Configure custom DB
 By default, Hybris uses HSQL DB and it's configures in global **project.properties** file.
-##### custom MySQL DB configuration (define it in local.properties)
+   ##### Custom MySQL DB configuration (define it in local.properties)
 ```sh
 db.url=jdbc:mysql://localhost/<dbname>?useConfigs=maxPerformance&characterEncoding=utf8
 db.driver=com.mysql.jdbc.Driver

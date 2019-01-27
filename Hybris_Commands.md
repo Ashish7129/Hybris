@@ -9,6 +9,18 @@ cd %HYBRIS_HOME_DIR%\hybris & start /B java -cp .\bin\platform\lib\dbdriver\* or
 ```sh
 taskkill /FI "WINDOWTITLE eq HSQL*" 
 ```
+
+#### Configure custom DB
+By default, Hybris uses HSQL DB and it's configures in global **project.properties** file.
+### custom MySQL DB configuration (define it in local.properties)
+```sh
+db.url=jdbc:mysql://localhost/<dbname>?useConfigs=maxPerformance&characterEncoding=utf8
+db.driver=com.mysql.jdbc.Driver
+db.username=<username>
+db.password=<password>
+db.tableprefix=
+```
+
 #### Command to run/stop Hybris server
 ```sh
 hybrisserver.bat start/stop

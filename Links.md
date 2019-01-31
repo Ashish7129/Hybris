@@ -6,3 +6,6 @@ https://hybrismart.com/2016/09/02/hybris-cms-template-structure-reference/
 
 #### WCMS 
 https://www.stackextend.com/hybris/everything-about-wcms-in-hybris/
+
+#### Add Widgets in backoffice and Add Nagivation Node on Nav bar
+https://hybrisdiary.com/category/hybris-tutorials/

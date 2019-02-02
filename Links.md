@@ -9,3 +9,6 @@ https://www.stackextend.com/hybris/everything-about-wcms-in-hybris/
 
 #### Add Widgets in backoffice and Add Nagivation Node on Nav bar
 https://hybrisdiary.com/category/hybris-tutorials/
+
+#### Create a new Navigation node and children nodes in custom Navigation node
+https://hybrisdiary.com/2018/07/01/navigation-management-in-sap-hybris-commerce/ 

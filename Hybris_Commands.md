@@ -86,7 +86,7 @@ Then, ```sh ant clean all ```
   ```sh
   ant addoninstall -Daddonnames="myaddon" -DaddonStorefront.<yacceleratorstorefront>="trainingstoreFront"
   ```
-- rebuild system ```sh ant clean all ```
+- rebuild system ``` ant clean all ```
 - **To uninstall addon**
 ```sh
 ant addonuninstall -Daddonnames="myaddon" -DaddonStorefront.<yacceleratorstorefront>="trainingstoreFront"

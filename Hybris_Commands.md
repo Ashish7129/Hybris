@@ -66,7 +66,7 @@ ant updatesystem
 move %HYBRIS_HOME_DIR%\hybris\bin\custom\concerttours\resources\impex\essentialdata-bands.impex %HYBRIS_HOME_DIR%\hybris\bin\custom\concerttours\resources\impex\concerttours-bands.impex & move %HYBRIS_HOME_DIR%\hybris\bin\custom\concerttours\resources\impex\projectdata-yBandTour.impex %HYBRIS_HOME_DIR%\hybris\bin\custom\concerttours\resources\impex\concerttours-yBandTour.impex
 ```
 
-#### command to create AddOns
+#### Command to create AddOns
 inside platform folder,
 ```sh
 ant extgen -Dinput.template=yaddon -Dinput.name=myaddon -Dinput.package=com.myapp
@@ -76,3 +76,19 @@ Now, add your Addon (myaddon) to localextensions.info
 <extension name="myaddon" />
 ```
 Then, ```sh ant clean all ```
+
+#### To install AddOn for specific storefront
+- add **addonsupport** extension in localextensions.info
+  ```sh
+  <extension name="addonsupport" />
+  ```
+- install addon
+  ```sh
+  ant addoninstall -Daddonnames="myaddon" -DaddonStorefront.<yacceleratorstorefront>="trainingstoreFront"
+  ```
+- rebuild system ```sh ant clean all ```
+- **To uninstall addon**
+```sh
+ant addonuninstall -Daddonnames="myaddon" -DaddonStorefront.<yacceleratorstorefront>="trainingstoreFront"
+```
+

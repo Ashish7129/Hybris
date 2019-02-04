@@ -75,7 +75,7 @@ Now, add your Addon (myaddon) to localextensions.info
 ```sh
 <extension name="myaddon" />
 ```
-Then, ```sh ant clean all ```
+Then, ``` ant clean all ```
 
 #### To install AddOn for specific storefront
 - add **addonsupport** extension in localextensions.info

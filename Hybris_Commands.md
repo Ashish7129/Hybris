@@ -71,14 +71,14 @@ inside platform folder,
 ```sh
 ant extgen -Dinput.template=yaddon -Dinput.name=myaddon -Dinput.package=com.myapp
 ```
-Now, add your Addon (myaddon) to localextensions.info
+Now, add your Addon (myaddon) to localextensions.xml
 ```sh
 <extension name="myaddon" />
 ```
 Then, ``` ant clean all ```
 
 #### To install AddOn for specific storefront
-- add **addonsupport** extension in localextensions.info
+- add **addonsupport** extension in localextensions.xml
   ```sh
   <extension name="addonsupport" />
   ```

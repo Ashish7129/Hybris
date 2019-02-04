@@ -65,3 +65,14 @@ ant updatesystem
 ```sh
 move %HYBRIS_HOME_DIR%\hybris\bin\custom\concerttours\resources\impex\essentialdata-bands.impex %HYBRIS_HOME_DIR%\hybris\bin\custom\concerttours\resources\impex\concerttours-bands.impex & move %HYBRIS_HOME_DIR%\hybris\bin\custom\concerttours\resources\impex\projectdata-yBandTour.impex %HYBRIS_HOME_DIR%\hybris\bin\custom\concerttours\resources\impex\concerttours-yBandTour.impex
 ```
+
+#### command to create AddOns
+inside platform folder,
+```sh
+ant extgen -Dinput.template=yaddon -Dinput.name=myaddon -Dinput.package=com.myapp
+```
+Now, add your Addon (myaddon) to localextensions.info
+```sh
+<extension name="myaddon" />
+```
+Then, ```sh ant clean all ```

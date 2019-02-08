@@ -30,7 +30,7 @@ ctrl + C to stop server
 #### Command to create recipe
 ```sh
 inside installer,
-install.bat -r [recipe_name] setup
+install.bat -r [recipe_name] setup  // Copying of files
 install.bat -r [recipe_name] initialize
 install.bat -r [recipe_name] start
 ```

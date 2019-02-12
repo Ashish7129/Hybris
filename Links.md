@@ -12,3 +12,6 @@ https://hybrisdiary.com/category/hybris-tutorials/
 
 #### Create a new Navigation node and children nodes in custom Navigation node
 https://hybrisdiary.com/2018/07/01/navigation-management-in-sap-hybris-commerce/ 
+
+#### Add an attribute in list view (Backoffice)
+https://medium.com/@manpreetsingh.16.11.87/sap-hybris-add-a-new-attribute-to-backoffice-listview-15420fc4b044

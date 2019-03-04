@@ -92,3 +92,6 @@ Then, ``` ant clean all ```
 ant addonuninstall -Daddonnames="myaddon" -DaddonStorefront.<yacceleratorstorefront>="trainingstoreFront"
 ```
 
+#### To increase the license for 90 days
+```sh license -temp CPS_SQL
+

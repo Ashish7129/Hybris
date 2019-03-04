@@ -93,5 +93,7 @@ ant addonuninstall -Daddonnames="myaddon" -DaddonStorefront.<yacceleratorstorefr
 ```
 
 #### To increase the license for 90 days
-```sh license -temp CPS_SQL
+```sh 
+license -temp CPS_SQL
+```
 
